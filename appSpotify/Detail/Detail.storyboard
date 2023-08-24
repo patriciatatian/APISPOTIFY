@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Detail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DetailViewController" customModule="appSpotify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olívia Rodrigo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXX-mf-kWh">
+                                <rect key="frame" x="36" y="80" width="342" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3cr-NZ-Mdj">
+                                <rect key="frame" x="122" y="146" width="170" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="8rk-Qe-2Yy"/>
+                                    <constraint firstAttribute="width" constant="170" id="acJ-E6-Wy1"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wbl-qr-Sxl">
+                                <rect key="frame" x="36" y="402" width="342" height="135.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popularidade: 84" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StO-je-H6k">
+                                        <rect key="frame" x="0.0" y="0.0" width="342" height="21.666666666666668"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome: Olívia Rodrigo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl7-Lt-dvG">
+                                        <rect key="frame" x="0.0" y="41.666666666666686" width="342" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de Seguidores: 260.853,79" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1q-WY-B92">
+                                        <rect key="frame" x="0.0" y="79.666666666666686" width="342" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gênero Musical: POP Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8br-Dt-oqS">
+                                        <rect key="frame" x="0.0" y="117.66666666666663" width="342" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wbl-qr-Sxl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="94K-Lv-NQy"/>
+                            <constraint firstItem="bXX-mf-kWh" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="36" id="BT8-fy-WeY"/>
+                            <constraint firstItem="bXX-mf-kWh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="GVh-ou-QRm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Wbl-qr-Sxl" secondAttribute="trailing" constant="36" id="fan-3c-bUU"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bXX-mf-kWh" secondAttribute="trailing" constant="36" id="pSX-ve-TNp"/>
+                            <constraint firstItem="Wbl-qr-Sxl" firstAttribute="top" secondItem="3cr-NZ-Mdj" secondAttribute="bottom" constant="36" id="tGR-cF-JPY"/>
+                            <constraint firstItem="3cr-NZ-Mdj" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="vyv-SN-ae8"/>
+                            <constraint firstItem="3cr-NZ-Mdj" firstAttribute="top" secondItem="bXX-mf-kWh" secondAttribute="bottom" constant="36" id="zda-OX-e9h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="artistaImageView" destination="3cr-NZ-Mdj" id="Pdy-oK-dvU"/>
+                        <outlet property="artistaNome" destination="bl7-Lt-dvG" id="QzG-98-V7B"/>
+                        <outlet property="artistaPopularidade" destination="StO-je-H6k" id="0Ak-5f-05h"/>
+                        <outlet property="artistaSeguidores" destination="d1q-WY-B92" id="ue7-dV-4R8"/>
+                        <outlet property="artistaTitulo" destination="bXX-mf-kWh" id="bQh-fc-3xp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.13953488372093" y="-2.5751072961373391"/>
+        </scene>
+    </scenes>
+</document>
