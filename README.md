@@ -7,8 +7,8 @@
 
 <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
 
-> Esse aplicativo foi desenvolvido no projeto Novos Negóios em TIC, com o bejtivo de treinar a equipe com a linguagem de programação Xcode.
-> O mesmo foi desenvolvido utiliza ViewCode e StoryBoard. A API escolhida para integrar o aplicativo "Artistas Populares" foi a do Spotify,
+> Esse aplicativo foi desenvolvido no projeto Novos Negóios em TIC, com o objetivo de treinar a equipe com a linguagem de programação Xcode.
+> O mesmo foi desenvolvido utilizando ViewCode e StoryBoard. A API escolhida para integrar ao aplicativo "Artistas Populares" foi a do Spotify,
 > onde informações a cerca dos artistas populares do spotify são utilizadas na aplicação.
 
 ## 🎥 DEMO
